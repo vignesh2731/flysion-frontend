@@ -7,7 +7,7 @@ import './App.css';
 import './App2.css';
 import './App3.css';
 import Loginpage from './Loginpage';
-
+import App4 from './App4'; 
 function MainApp() {
   return (
     <Router>
@@ -17,6 +17,7 @@ function MainApp() {
         <Route path="/customer/create" element={<App3one />} /> 
         <Route path="/designer/create" element={<App3one />} />
         <Route path="/login1" element={<Loginpage />} />
+        <Route path="/dashboard" element={<App4 />} /> 
       </Routes>
     </Router>
   );

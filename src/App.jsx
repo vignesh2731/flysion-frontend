@@ -13,7 +13,7 @@ const App = () => {
     <div className="app">
       <header className="header">
         <img src="logo.jpg" alt="Flyshion Logo" className="logo" />
-        <button className="login-btn" onClick={handleLoginClick}>Login</button>
+        <button className="login-btn" onClick={handleLoginClick}>Shop Now</button>
       </header>
 
       <main className="main-content">
@@ -21,7 +21,7 @@ const App = () => {
           <div className="hero-text">
             <h1>Find Your Own Fashion!</h1>
             <p>Explore our curated collection of stylish clothing tailored to your unique taste.</p>
-            <button className="shop-now-btn">Shop now</button>
+            <button className="shop-now-btn">Check latest designs</button>
           </div>
           <div className="hero-image">
             <img src="i1.avif" alt="Featured" className="featured-img" />
