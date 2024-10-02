@@ -54,6 +54,7 @@
 .secondary-button {
   font-size: 0.9em;
   background-color: #555;
+  text-decoration: none;
 }
 
 .secondary-button:hover {
@@ -64,6 +65,10 @@
   font-size: 1.2em;
   color: #333;
   margin: 20px 0; 
+}
+
+.login-button-container {
+  margin-top: 20px; 
 }
 
 @media (max-width: 768px) {

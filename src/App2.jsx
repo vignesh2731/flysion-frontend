@@ -11,7 +11,6 @@ const App2 = () => {
       </div>
 
       <div className="button-container">
-        
         <div className="button-group">
           <button className="button main-button">CUSTOMER</button>
           <Link to="/customer/create" className="button secondary-button">
@@ -19,20 +18,24 @@ const App2 = () => {
           </Link>
         </div>
 
-       
+
         <div className="button-group">
           <button className="button main-button">DESIGNER</button>
-          <button className="button secondary-button">Create Account</button>
+          <Link to="/designer/create" className="button secondary-button">
+            Create Account
+          </Link>
         </div>
       </div>
 
-     
-      <div className="button-group">
-        <span className="or-text">OR</span>
-        <button className="button secondary-button">Login</button>
+      <span className="or-text">OR</span>
+
+
+      <div className="login-button-container">
+        <Link to="/login1" className="button secondary-button">Login</Link> 
       </div>
     </div>
   );
 };
 
 export default App2;
+  
